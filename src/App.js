@@ -20,6 +20,12 @@ function App() {
 
   return (
     <div className="flex flex-col w-full min-h-screen md:h-screen md:flex-row md:bg-black bg-gradient-to-b from-slate-900 via-cyan-700 to-lime-700">
+      <div className="flex items-center justify-center w-full pt-10 space-x-3 md:hidden">
+        <img src="/images/logoIcon.png" alt="" className="w-[50px]" />
+        <span className="font-sans font-extrabold text-white text-[28px]">
+          LOCH
+        </span>
+      </div>
       <div
         className="flex-col hidden w-3/5 h-full py-10 pl-10 bg-black md:flex"
         style={{
@@ -99,7 +105,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center py-20 mx-10 mt-20 bg-white shadow-inner md:py-0 rounded-xl md:rounded-none md:mx-0 md:mt-0 md:w-2/5">
+      <div className="flex flex-col items-center justify-center py-20 mx-10 mt-10 bg-white shadow-inner md:py-0 rounded-xl md:rounded-none md:mx-0 md:mt-0 md:w-2/5">
         <div className="w-4/5 md:w-3/5 text-[#B0B1B3] flex flex-col space-y-5">
           <span className="text-[30px] font-medium">
             Sign up for exclusive access.
